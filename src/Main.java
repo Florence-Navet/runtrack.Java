@@ -10,6 +10,7 @@ public class Main {
         Array.AfficherTableau();
         Carre.AfficherCarre();
         Maximum.AfficherMaximum();
+        Moyenne.AfficherMoyenne();
         clavier.close();
     }
 
