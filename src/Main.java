@@ -11,6 +11,7 @@ public class Main {
         Carre.AfficherCarre();
         Maximum.AfficherMaximum();
         Moyenne.AfficherMoyenne();
+        Somme.AfficherSomme();
         clavier.close();
     }
 
