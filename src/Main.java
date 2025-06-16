@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello, Java !");
 
         Scanner clavier = new Scanner(System.in);
+        Age.AfficherAge();
         Sphere.AfficherCubes();
         Variables.AppeletVaribales();
         Prenom.AppelerPrenom();
