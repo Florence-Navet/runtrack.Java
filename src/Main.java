@@ -6,18 +6,18 @@ public class Main {
 
         Scanner clavier = new Scanner(System.in);
         InverseNombre.AfficherNombreInverse();
-        Mulplication.AfficherTable();
-        NombresPairs.AfficherNombresPairs();
-        Factorielle.AfficherFactorielle();
-        Age.AfficherAge();
-        Sphere.AfficherCubes();
-        Variables.AppeletVaribales();
-        Prenom.AppelerPrenom();
-        Array.AfficherTableau();
-        Carre.AfficherCarre();
-        Maximum.AfficherMaximum();
-        Moyenne.AfficherMoyenne();
-        Somme.AfficherSomme();
+       // Mulplication.AfficherTable();
+       // NombresPairs.AfficherNombresPairs();
+       // Factorielle.AfficherFactorielle();
+       // Age.AfficherAge();
+        //Sphere.AfficherCubes();
+       // Variables.AppeletVaribales();
+      // Prenom.AppelerPrenom();
+        //Array.AfficherTableau();
+        //Carre.AfficherCarre();
+        //Maximum.AfficherMaximum();
+      // Moyenne.AfficherMoyenne();
+       // Somme.AfficherSomme();
 
         clavier.close();
     }
