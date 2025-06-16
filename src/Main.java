@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Hello, Java !");
 
         Scanner clavier = new Scanner(System.in);
+        Sphere.AfficherCubes();
         Variables.AppeletVaribales();
         Prenom.AppelerPrenom();
         Array.AfficherTableau();
@@ -12,6 +13,7 @@ public class Main {
         Maximum.AfficherMaximum();
         Moyenne.AfficherMoyenne();
         Somme.AfficherSomme();
+
         clavier.close();
     }
 
