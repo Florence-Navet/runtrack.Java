@@ -9,6 +9,7 @@ public class Main {
         Prenom.AppelerPrenom();
         Array.AfficherTableau();
         Carre.AfficherCarre();
+        Maximum.AfficherMaximum();
         clavier.close();
     }
 
