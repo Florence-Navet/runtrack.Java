@@ -13,8 +13,7 @@ public class Prenom {
         // Affichez les données entrées par l'utilisateur.
         System.out.println("Bonjour " + prenom);
 
-        // Fermez le scanner pour éviter les fuites de ressources.
-        clavier.close();
+
 
     }
 }
