@@ -4,6 +4,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, Java !");
 
+        System.out.println("--------------------cercle---------------------");
+        Cercle cer = new Cercle(0,0, 5);
+        cer.affiche();
+
+
+        System.out.println("Le point (2, 6) est dans le cercle ? " + cer.estInterieur(3, 4));
+        System.out.println("Le point (7, 1) est dans le cercle ? " + cer.estInterieur(6, 0));
+
+        System.out.println();
         System.out.println("------------creation rectangle----------------------");
         Rectangle rect = new Rectangle(5.0, 10.0);
         System.out.println("Largeur : " + rect.getLargeur());
