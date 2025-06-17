@@ -1,12 +1,14 @@
-public class Rectangle {
+public class Rectangle extends Figure{
     private double longueur;
     private double largeur;
 
     // Constructeur
-    public Rectangle(double longueur, double largeur) {
+    public Rectangle(double x, double y, double longueur, double largeur) {
+        super(x, y);
         this.longueur = longueur;
         this.largeur = largeur;
     }
+
 
     // Getter pour longueur
     public double getLongueur() {

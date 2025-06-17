@@ -1,8 +1,8 @@
 public class RectangleColore extends Rectangle {
     private int couleur;
 
-    public RectangleColore(double longueur, double largeur, int couleur) {
-        super(longueur, largeur); // appel constructeur classe parente
+    public RectangleColore(double x, double y, double longueur, double largeur, int couleur) {
+        super(x, y, longueur, largeur); // appel constructeur classe parente
         this.couleur = couleur;
     }
     public int getCouleur() {

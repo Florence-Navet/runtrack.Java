@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println();
         System.out.println("------------creation rectangle----------------------");
-        Rectangle rect = new Rectangle(5.0, 10.0);
+        Rectangle rect = new Rectangle(5.0, 10.0, 7.0, 4.0);
         System.out.println("Largeur : " + rect.getLargeur());
         System.out.println("Longueur : " + rect.getLongueur());
         System.out.println("Surface : " + rect.surface());
@@ -31,8 +31,13 @@ public class Main {
         System.out.println();
         System.out.println("------------creation rectangle colore----------------------");
 
-        RectangleColore rec2 = new RectangleColore(5.0,7.0, 255);
+        RectangleColore rec2 = new RectangleColore(2.0, 3.0, 5.0, 4.0, 123456);
         rec2.afficheCercleColore();
+
+
+        Rectangle r3 = new Rectangle(1.0, 2.0, 5.0, 3.0);
+        r3.afficher();
+
 
 
         System.out.println("------------appelle toto----------------------");
