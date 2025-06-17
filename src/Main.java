@@ -4,12 +4,32 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, Java !");
 
+        System.out.println("------------creation rectangle----------------------");
+        Rectangle rect = new Rectangle(5.0, 10.0);
+        System.out.println("Largeur : " + rect.getLargeur());
+        System.out.println("Longueur : " + rect.getLongueur());
+        System.out.println("Surface : " + rect.surface());
+
+        // Modifier la largeur et la longueur
+        rect.setLargeur(7.5);
+        rect.setLongueur(12.0);
+
+
+        System.out.println("Nouvelle largeur : " + rect.getLargeur());
+        System.out.println("Nouvelle longueur : " + rect.getLongueur());
+        System.out.println("Nouvelle surface : " + rect.surface());
+
+
+        System.out.println("------------appelle toto----------------------");
+
         Scanner clavier = new Scanner(System.in);
 
         Toto t1 = new Toto();
         Toto t2 = new Toto();
         Toto t3 = new Toto();
         System.out.println("Toto:" + Toto.compteur);
+
+        System.out.println("------------Creation personne---------------------");
 
         Personne p = new Personne(
                 "Patenne",
