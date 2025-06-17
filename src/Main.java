@@ -6,6 +6,11 @@ public class Main {
 
         Scanner clavier = new Scanner(System.in);
 
+        Toto t1 = new Toto();
+        Toto t2 = new Toto();
+        Toto t3 = new Toto();
+        System.out.println("Toto:" + Toto.compteur);
+
         Personne p = new Personne(
                 "Patenne",
                 "Adeline",
