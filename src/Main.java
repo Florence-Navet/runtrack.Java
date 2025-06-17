@@ -28,6 +28,12 @@ public class Main {
         System.out.println("Nouvelle longueur : " + rect.getLongueur());
         System.out.println("Nouvelle surface : " + rect.surface());
 
+        System.out.println();
+        System.out.println("------------creation rectangle colore----------------------");
+
+        RectangleColore rec2 = new RectangleColore(5.0,7.0, 255);
+        rec2.afficheCercleColore();
+
 
         System.out.println("------------appelle toto----------------------");
 
