@@ -5,7 +5,21 @@ public class Main {
         System.out.println("Hello, Java !");
 
         Scanner clavier = new Scanner(System.in);
-        InverseNombre.AfficherNombreInverse();
+
+        Personne p = new Personne(
+                "Patenne",
+                "Adeline",
+                "15/05/1996",
+                "Marseille",
+                "Castellane",
+                "0611111111"
+        );
+
+        p.afficherInfos();
+
+
+
+        //InverseNombre.AfficherNombreInverse();
        // Mulplication.AfficherTable();
        // NombresPairs.AfficherNombresPairs();
        // Factorielle.AfficherFactorielle();
@@ -19,7 +33,7 @@ public class Main {
       // Moyenne.AfficherMoyenne();
        // Somme.AfficherSomme();
 
-        clavier.close();
+        //clavier.close();
     }
 
 
