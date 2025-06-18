@@ -1,10 +1,10 @@
 public class Vehicule {
-private String marque;
-private String dateAchat;
-private double prixAchat;
+protected String marque;
+protected String dateAchat;
+protected double prixAchat;
 private double prixCourant = 0.0;
 
-public Vehicule(String marque, String dateAchat, double prixAchat, double prixCourant) {
+public Vehicule(String marque, String dateAchat, double prixAchat) {
     this.marque =  marque;
     this.dateAchat = dateAchat;
     this.prixAchat = prixAchat;
