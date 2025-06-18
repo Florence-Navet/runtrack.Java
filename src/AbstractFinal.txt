@@ -1,0 +1,49 @@
+public class AbstracFinal {
+
+    // Classes abstraites et concrètes correctement définies
+
+    static abstract class A {
+        int a;
+    }
+
+    static class B extends A {
+        int b;
+    }
+
+    static class C extends A {
+        final double c = 1;
+    }
+
+    static abstract class D extends A {
+        double d;
+
+        int operation(int a) {
+            return (a * 2);
+        }
+
+        abstract int calcul(int b);
+    }
+
+    // Une classe concrète pour D, pour pouvoir instancier si besoin
+    static class DConcret extends D {
+        @Override
+        int calcul(int b) {
+            return b + 10;
+        }
+    }
+
+    // Méthode main commentée pour ne pas compiler ni exécuter de code problématique
+    /*
+    public static void main(String[] args) {
+        A[] tab = new A[3];
+
+        // On ne peut pas instancier A car abstraite
+        tab[0] = new B();
+        tab[1] = new C();
+        tab[2] = new DConcret();
+
+        // Test simple
+        System.out.println("Test ok");
+    }
+    */
+}
