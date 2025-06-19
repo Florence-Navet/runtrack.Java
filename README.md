@@ -47,3 +47,12 @@ creation de fichiers idea
 -mkdir -p build
 touch src/main.java
 ````  
+## Projet MagiCards  
+![MagiCards](magiCard.png)  
+  
+---  
+## Projet Gestion commerciale
+![MagiCards](gestioncommerciale.png)    
+
+---  
+
