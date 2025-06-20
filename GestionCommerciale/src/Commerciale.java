@@ -8,6 +8,26 @@ public class Commerciale {
     private Vector<Commande> commandes = new Vector<>();
     private Vector<Ligne> lignes = new Vector<>();
 
+    //getter
+    public Vector<Client> getClients() {
+        return clients;
+    }
+
+    public Vector<Article> getArticles() {
+        return articles;
+    }
+
+    public Vector<Commande> getCommandes() {
+        return commandes;
+    }
+
+    public Vector<Ligne> getLignes() {
+        return lignes;
+    }
+
+
+
+
 
     public void passerCommande(Commande commande) {
         commandes.add(commande);

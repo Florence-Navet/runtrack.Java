@@ -1,4 +1,6 @@
 package src;
+import java.util.Locale;
+
 
 public class Article {
     private int reference;
