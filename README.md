@@ -54,5 +54,7 @@ touch src/main.java
 ## Projet Gestion commerciale
 ![MagiCards](gestioncommerciale.png)    
 
+**diagramme des class du projet de gestion commerciale**
+
 ---  
 
