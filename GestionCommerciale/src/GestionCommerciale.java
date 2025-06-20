@@ -1,5 +1,7 @@
 package src; // ← Ajoute ceci !
 
+import java.util.Scanner;
+
 public class GestionCommerciale {
     public static void main(String[] args) {
         Client client = new Client(1, "Tristan", "7 rue Dr Martinenq",15000);
@@ -9,6 +11,7 @@ public class GestionCommerciale {
 
         Article a = new Article(101, "Stylo bille", 1.5, 100);
         a.afficher();
+
 
 
     }
