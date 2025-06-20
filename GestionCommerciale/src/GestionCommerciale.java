@@ -70,9 +70,9 @@ public class GestionCommerciale {
         scanner.nextLine();
 
         Client clientASupprimer = null;
-        for (Client c : gestion.getClients()) {
-            if (c.getIdentite() == id) {
-                clientASupprimer = c;
+        for (Client cl : gestion.getClients()) {
+            if (cl.getIdentite() == id) {
+                clientASupprimer = cl;
                 break;
             }
         }
@@ -113,9 +113,9 @@ public class GestionCommerciale {
         scanner.nextLine();
 
         Article articleASupprimer = null;
-        for (Article a : gestion.getArticles()) {
-            if (a.getReference() == ref) {
-                articleASupprimer = a;
+        for (Article art : gestion.getArticles()) {
+            if (art.getReference() == ref) {
+                articleASupprimer = art;
                 break;
             }
         }
@@ -131,8 +131,8 @@ public class GestionCommerciale {
     //pour afficher la liste des  clients
     private static void afficherClients() {
         System.out.println("Liste des clients :");
-        for (Client c : gestion.getClients()) {
-            c.afficher();
+        for (Client cl : gestion.getClients()) {
+            cl.afficher();
         }
     }
 
@@ -140,8 +140,8 @@ public class GestionCommerciale {
 
     private static void afficherArticles() {
         System.out.println("Liste des articles :");
-        for (Article a : gestion.getArticles()) {
-            a.afficher();
+        for (Article art : gestion.getArticles()) {
+            art.afficher();
         }
     }
 }
